@@ -6,10 +6,6 @@
  *****/
 
 
-//* Turn on link manager
-add_filter( 'pre_option_link_manager_enabled', '__return_true' );
-
-
 //* Add custom CSS
 function tx041cap_theme() {
 	wp_enqueue_style( 'tx041cap', get_stylesheet_directory_uri() . '/custom/style.css', NULL, '0.1.0' );
