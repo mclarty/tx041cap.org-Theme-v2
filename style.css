@@ -1,0 +1,48 @@
+.title-area {
+	padding-bottom: 0px;
+}
+
+.site-title {
+	margin: 0px;
+}
+
+.site-title a {
+	background: url('/wp-content/themes/tx041cap/custom/images/tx041-logo.png') no-repeat scroll 0% 0% transparent;
+	background-size: contain;
+	min-height: 100px;
+    display: block;
+    text-indent: -9999px;
+}
+
+.site-description {
+	display: none;
+}
+
+.widget-title {
+	padding-bottom: 10px;
+	border-bottom: 5px solid #ececec;
+	margin-bottom: 15px;
+}
+
+
+/*
+Media Queries
+---------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+
+	.site-title a {
+		background: url('/wp-content/themes/tx041cap/custom/images/tx041-logo-758px.png') no-repeat scroll 0% 0% transparent;
+		background-size: contain;
+	}
+
+}
+
+@media only screen and (max-width: 570px) {
+
+	.site-title a {
+		background: url('/wp-content/themes/tx041cap/custom/images/tx041-logo-325px.png') no-repeat scroll center center transparent;
+		background-size: contain;
+	}
+
+}
