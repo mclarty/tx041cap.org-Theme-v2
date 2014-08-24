@@ -24,6 +24,50 @@
 	margin-bottom: 15px;
 }
 
+#follow-us {
+	font-size: 0px;
+	height: 84px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#follow-us ul {
+	list-style: none;
+	list-style-image: none;
+}
+
+#follow-us li {
+	border-bottom: none;
+	display: inline-block;
+	height: 64px;
+	margin: 0px 15px;
+	padding: 0px;
+	width: 64px;
+}
+
+#follow-us li a {
+	display: block;
+	height: 64px;
+	text-indent: -9999px;
+	width: 64px;
+}
+
+#follow-us li:before {
+	display: none;
+}
+
+#follow-us li#facebook {
+	background: url('/wp-content/themes/tx041cap/custom/images/facebook-64x64.png') no-repeat scroll 0% 0% transparent;
+}
+
+#follow-us li#google-plus {
+	background: url('/wp-content/themes/tx041cap/custom/images/plus-64x64.png') no-repeat scroll 0% 0% transparent;
+}
+
+#follow-us li#twitter {
+	background: url('/wp-content/themes/tx041cap/custom/images/twitter-64x64.png') no-repeat scroll 0% 0% transparent;
+}
 
 /*
 Media Queries
