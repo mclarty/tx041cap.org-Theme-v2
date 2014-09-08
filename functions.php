@@ -28,7 +28,7 @@ add_action( 'pre_get_posts', 'tx041cap_show_only_frontpage_news' );
 function tx041cap_footer() {
 	echo do_shortcode( '<div class="footer" style="text-align:center;">Links or references to individuals or companies does not constitute an endorsement of any information, product or service you may receive from such sources.</div>
 		<br />
-		<div class="creds"><p><a href="/contact/email?officer=it">Contact the webmaster</a> • <a href="http://stats.pingdom.com/swznn0xlijj2/372530" target="_blank">Website Stats</a> • [footer_loginout]<br />Copyright [footer_copyright] Civil Air Patrol</p></div>' );
+		<div class="creds"><p>[member_contact link="/contact/email" position="Information Technologies Officer"]contact the Webmaster[/member_contact] • <a href="http://stats.pingdom.com/swznn0xlijj2/372530" target="_blank">Website Stats</a> • [footer_loginout]<br />Copyright [footer_copyright] Civil Air Patrol</p></div>' );
 }
 remove_action( 'genesis_footer', 'genesis_do_footer' );
 add_action( 'genesis_footer', 'tx041cap_footer' );
